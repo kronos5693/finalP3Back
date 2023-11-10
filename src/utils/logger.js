@@ -1,7 +1,14 @@
 const { createLogger, format, transports } = require("winston");
 
+const logFormat = format.combine(
+	format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+	format.printf(({ timestamp, level, message }) => {
+		return `${timestamp} [${level}]: ${message}`;
+	}))
+
 module.exports = createLogger({
-  format: format.combine(format.simple()),
+  format: logFormat,
+  
   transports: [
     new transports.File({
       //Indicamos el tamaño max del archivo
@@ -15,3 +22,4 @@ module.exports = createLogger({
     }),
   ],
 });
+

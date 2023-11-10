@@ -1,0 +1,80 @@
+[
+    {
+      "nombre": "Iron Man",
+      "descripcion": "Una experiencia unica que nunca volvere a repetir",
+      "img": "https://cdn.marvel.com/content/1x/ironman_lob_mas_hlf_02_0.jpg"
+    },
+    {
+        "nombre": "Spider Man",
+        "descripcion": "Impresionante",
+        "img": "https://i.blogs.es/4d5a9c/spiderman-4/1366_2000.jpeg"
+      }
+,
+{
+    "nombre": "Hulk",
+    "descripcion": "Horrible todo",
+    "img": "https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/noticias-cine/thor-ragnarok-inicio-trilogia-hulk/137633181-1-esl-ES/Es-Thor-Ragnarok-el-principio-de-una-nueva-trilogia-de-Hulk.jpg"
+  },
+  {
+    "nombre": "Wasp",
+    "descripcion": "Como que le falto algo",
+    "img": "https://www.looper.com/img/gallery/marvels-wasp-every-one-of-her-powers-and-abilities-explained/intro-1674572085.jpg"
+  },
+  {
+    "nombre": "Thanos",
+    "descripcion": "Doy 5 estrellas y mi guantelete",
+    "img": "https://guardian.ng/wp-content/uploads/2019/04/Thanos-wearing-infinity-stones-Photo.-Metro-1.jpg"
+  },
+  {
+    "nombre": "Capitana Marvel",
+    "descripcion": "Me gusto el chico del bar",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/capm_foto_ucm1_b682535b.jpeg?region=0,54,2000,1127&width=960"
+  },
+  {
+    "nombre": "Thor",
+    "descripcion": "La comida fue mala",
+    "img": "https://hips.hearstapps.com/hmg-prod/images/chris-hemsworth-thor-1623742528.jpeg?crop=0.5625xw:1xh;center,top&resize=1200:*"
+  },
+  {
+    "nombre": "Black Panther",
+    "descripcion": "Volvere",
+    "img": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/blackpantherimage1marvelstudiosdisney.jpg/blackpantherimage1marvelstudiosdisney.jpg"
+  },
+  {
+    "nombre": "Black Widow",
+    "descripcion": "La comida fue mala",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Scarlett_Johansson_as_Black_Widow.jpg/220px-Scarlett_Johansson_as_Black_Widow.jpg"
+  },
+  {
+    "nombre": "Will",
+    "descripcion": "Me estafaron",
+    "img": "https://s.hdnux.com/photos/51/23/24/10827008/4/1200x0.jpg"
+  },
+  {
+    "nombre": "Michael",
+    "descripcion": "Un lujo todo",
+    "img": "https://i2-prod.birminghammail.co.uk/incoming/article19548989.ece/ALTERNATES/s1200c/0_JS135297114.jpg"
+  },
+  {
+    "nombre": "Nick Fury",
+    "descripcion": "Me sacaron un ojo de la cara de lo caro que estuvo",
+    "img": "https://www.thenews.com.pk/assets/uploads/updates/2023-06-22/1083440_659821_nick-fury_updates.jpg"
+  },
+  {
+    "nombre": "Chelu",
+    "descripcion": "todo de 10",
+    "img": "https://as2.ftcdn.net/v2/jpg/04/56/54/53/1000_F_456545301_S41HJecvHT8XQkRyv92C1F9kMOe4Ak6N.jpg"
+  },
+  {
+    "nombre": "Alex",
+    "descripcion": "todo de 10",
+    "img": "https://as1.ftcdn.net/v2/jpg/04/27/09/70/1000_F_427097065_xREaoOz6CiKuDgjtFZsQbpE4tWY5iijW.jpg"
+  },
+  {
+    "nombre": "Doc",
+    "descripcion": "todo de 10",
+    "img": "https://c4.wallpaperflare.com/wallpaper/625/970/393/hugh-laurie-blue-eyed-man-beard-wallpaper-preview.jpg"
+  }
+
+
+]
