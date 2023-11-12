@@ -12,3 +12,5 @@ const excursionSchema = new mongoose.Schema({
 const Excursion = mongoose.model('Excursion', excursionSchema);
 
 module.exports = Excursion;
+
+
