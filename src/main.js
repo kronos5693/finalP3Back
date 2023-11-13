@@ -24,8 +24,7 @@ connectDB();
 initDB();
 
 // Middleware
-app.use(cors()); // Habilitar CORS para todas las rutas
-app.use(express.json());
+app.use(cors()); 
 
 // Rutas
 app.use('/usuarios', usuarioRoutes);
