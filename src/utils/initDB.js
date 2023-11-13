@@ -1,6 +1,9 @@
 
 const Excursion = require('./../models/excursionModel');
 const Personaje = require ('./../models/personajeModel');
+const Usuario = require ('./../models/usuarioModel');
+
+
 const excursionData = require('./../data/DataLugares.json');  
 const personajeData = require('./../data/DataPersona.json');  
 
@@ -12,6 +15,7 @@ async function initDB() {
     // Borrar todos los documentos existentes en la colección de excursiones
     await Excursion.deleteMany({});
     await Personaje.deleteMany({});
+  // await Usuario.deleteMany({});
 
     // Insertar las nuevas excursiones desde el JSON
     await Excursion.insertMany(excursionData);

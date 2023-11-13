@@ -20,7 +20,7 @@
     "provincia": "Buenos Aires",
     "localidad": "Mar del Plata",
     "descripcion": "Desde 1904 somos la postal indiscutida de Mar del Plata, son 109 años de compromiso con la ciudad y con vos. Hoy queremos que vuelvas a disfrutar del mejor paisaje oceánico urbano, que nos redescubras, que conozcas nuestros servicios, los nuevos espacios y te sorprendas con nuestra exquisita gastronomía",
-    "precio": 99999,
+    "precio": 10000,
     "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/bc/c5/b6/torreon-del-monje.jpg?w=500&h=-1&s=1"
   },
   {
@@ -28,7 +28,7 @@
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Los turistas visitarán las estancias de Córdoba. Estas estancias son hermosas y están ubicadas en medio de algunos de los paisajes más impresionantes de Córdoba, una visita a una estancia no debe perderse si viaja a Córdoba.",
-    "precio": 99999,
+    "precio": 5000,
     "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/75/9c/93/caption.jpg?w=500&h=400&s=1"
   },
   {
@@ -36,7 +36,7 @@
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Aleje sus vacaciones de los caminos trillados en un tour privado a Villa General Belgrano y Cumbrecita. Después de un cómodo traslado desde su hotel de Córdoba o desde el aeropuerto, disfrute de un relajante viaje a Cumbrecita. Siga a su guía personal a través de la ciudad peatonal hasta una cervecería artesanal y pruebe la cocina tradicional centroeuropea (por cuenta propia). Antes de regresar a la ciudad, disfrute de las vistas naturales en el pueblo de montaña Villa General Belgrano.",
-    "precio": 99999,
+    "precio": 8000,
     "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/aa/2a/76.jpg"
   },
   {
@@ -120,7 +120,7 @@
     "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/8a/71/1c.jpg"
   },
     {
-      "excursion": "Excursión de día completo al Valle de Punilla  ",
+      "excursion": "Excursión de día completo al Valle de Punilla",
       "provincia": "Cordoba",
       "localidad": "Cordoba",
       "descripcion": "Admire las vistas de las montañas, ciudades alpinas y elegantes mansiones del Valle de Punilla en esta excursión de un día completo desde Córdoba. Saboree las tradiciones en los animados pueblos de Capilla del Monte, Villa Carlos Paz y La Cumbre; descubra Cosquín, capital de la música folk; y dé un paseo en telesilla en Los Cocos (coste adicional). Durante el trayecto, haga una parada para disfrutar de las vistas de la famosa montaña Uritorco, el Dique San Roque y la central hidroeléctrica de La Calera.",
@@ -129,7 +129,7 @@
     }
     ,
     {
-      "excursion": "Excursión a las Cataratas del Iguazú a la luz de la luna desde Puerto Iguazú ",
+      "excursion": "Excursión a las Cataratas del Iguazú nocturna",
       "provincia": "Misiones",
       "localidad": "Misiones",
       "descripcion": "La mayoría de personas visitan las cataratas del Iguazú durante el día, pero esta excursión nocturna le mostrará la belleza de las cataratas del Niágara, a la luz de la luna. En un pequeño grupo de no más de 15 personas, viaje en autobús y tren a Parque Nacional Iguazú y disfrute del paisaje más importante del parque, la Garganta del Diablo.",

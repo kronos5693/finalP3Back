@@ -3,6 +3,7 @@ const connectDB = require('./config/db');
 const usuarioRoutes = require('./routes/usuarioRoute');
 const excursionesRoutes = require('./routes/excursionRoute');
 const personajeRoutes = require('./routes/personajeRoute');
+const rolRoutes = require('./routes/rolRoute');
 const cors = require('cors');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
@@ -29,6 +30,7 @@ app.use('/usuarios', usuarioRoutes);
 app.use('/excursiones', excursionesRoutes);
 app.use('/personajes', personajeRoutes);
 
+app.use('/roles', rolRoutes);
 // Middleware de manejo de errores
 app.use(errorHandler);
 
