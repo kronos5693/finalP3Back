@@ -1,5 +1,6 @@
 const Usuario = require('../models/usuarioModel');
 const bcrypt = require('bcrypt');
+const logger = require('../utils/logger');
 
 // Obtener todos los usuarios
 exports.obtenerUsuarios = async (req, res) => {
@@ -25,10 +26,11 @@ exports.crearUsuario = async (req, res) => {
         // Crear el nuevo usuario
         const nuevoUsuario = new Usuario({ nombre,apellido, email, contraseña, roles });
         await nuevoUsuario.save();
-
+        logger.info(`Se creo correctamente el usuario en la base`);
         res.status(201).json({ mensaje: 'Usuario creado con éxito' });
     } catch (error) {
         res.status(500).json({ mensaje: 'Error al crear usuario' });
+        logger.error('Error al registrar usuario en la base de datos', error);
     }
 };
 
