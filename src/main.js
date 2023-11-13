@@ -4,6 +4,8 @@ const usuarioRoutes = require('./routes/usuarioRoute');
 const excursionesRoutes = require('./routes/excursionRoute');
 const personajeRoutes = require('./routes/personajeRoute');
 const rolRoutes = require('./routes/rolRoute');
+const compraRoutes = require('./routes/compraRoute');
+
 const cors = require('cors');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
@@ -29,6 +31,7 @@ app.use(express.json());
 app.use('/usuarios', usuarioRoutes);
 app.use('/excursiones', excursionesRoutes);
 app.use('/personajes', personajeRoutes);
+app.use('/compra', compraRoutes);
 
 app.use('/roles', rolRoutes);
 // Middleware de manejo de errores
