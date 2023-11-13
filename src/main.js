@@ -24,7 +24,8 @@ connectDB();
 initDB();
 
 // Middleware
-app.use(cors()); 
+app.use(cors());
+app.use(express.json());
 
 // Rutas
 app.use('/usuarios', usuarioRoutes);
