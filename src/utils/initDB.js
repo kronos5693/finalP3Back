@@ -1,7 +1,7 @@
 
 const Excursion = require('./../models/excursionModel');
 const Personaje = require ('./../models/personajeModel');
-const Usuario = require ('./../models/usuarioModel');
+//const Usuario = require ('./../models/usuarioModel');
 
 
 const excursionData = require('./../data/DataLugares.json');  
