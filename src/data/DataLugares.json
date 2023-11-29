@@ -4,128 +4,225 @@
     "provincia": "Buenos Aires",
     "localidad": "Mar del Plata",
     "descripcion": "Tiene unas vistas impresionantes, su estilo Tudor empatiza con la arquitectura característica de Mar del Plata",
-    "precio": 1255,
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/20/59/d6/la-imagen-de-la-torre.jpg?w=500&h=-1&s=1"
+    "precio": "1255",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/20/59/d6/la-imagen-de-la-torre.jpg?w=500&h=-1&s=1",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
+  
   },
   {
     "excursion": "Aquarium",
     "provincia": "Buenos Aires",
     "localidad": "Mar del Plata",
     "descripcion": "Disfruta junto a los animales en un lugar único",
-    "precio": 99999,
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/b1/e5/54/pinguinera.jpg?w=500&h=400&s=1"
+    "precio": "99999",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/b1/e5/54/pinguinera.jpg?w=500&h=400&s=1",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Torreón del Monje",
     "provincia": "Buenos Aires",
     "localidad": "Mar del Plata",
     "descripcion": "Desde 1904 somos la postal indiscutida de Mar del Plata, son 109 años de compromiso con la ciudad y con vos. Hoy queremos que vuelvas a disfrutar del mejor paisaje oceánico urbano, que nos redescubras, que conozcas nuestros servicios, los nuevos espacios y te sorprendas con nuestra exquisita gastronomía",
-    "precio": 10000,
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/bc/c5/b6/torreon-del-monje.jpg?w=500&h=-1&s=1"
+    "precio": "10000",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/bc/c5/b6/torreon-del-monje.jpg?w=500&h=-1&s=1",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Tour del Legado Jesuítico de Córdoba",
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Los turistas visitarán las estancias de Córdoba. Estas estancias son hermosas y están ubicadas en medio de algunos de los paisajes más impresionantes de Córdoba, una visita a una estancia no debe perderse si viaja a Córdoba.",
-    "precio": 5000,
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/75/9c/93/caption.jpg?w=500&h=400&s=1"
+    "precio": "10000",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/75/9c/93/caption.jpg?w=500&h=400&s=1",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "La Cumbrecita y Villa Gral. Belgrano",
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Aleje sus vacaciones de los caminos trillados en un tour privado a Villa General Belgrano y Cumbrecita. Después de un cómodo traslado desde su hotel de Córdoba o desde el aeropuerto, disfrute de un relajante viaje a Cumbrecita. Siga a su guía personal a través de la ciudad peatonal hasta una cervecería artesanal y pruebe la cocina tradicional centroeuropea (por cuenta propia). Antes de regresar a la ciudad, disfrute de las vistas naturales en el pueblo de montaña Villa General Belgrano.",
-    "precio": 8000,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/aa/2a/76.jpg"
+    "precio": "1255",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/aa/2a/76.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Tour Cumbrecita",
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Partirás desde la ciudad de Córdoba por la Ruta Provincial E55, pasando por el Monumento a Myriam Stefford, Alta Gracia, Anisacate, La Bolsa y Villa Ciudad de América.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/0c/09/be.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/0c/09/be.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Tour lado argentino de las Cataratas del Iguazú",
     "provincia": "Misiones",
     "localidad": "Misiones",
     "descripcion": "Una experiencia completa en las Cataratas Argentinas, con seguridad, comodidad y guía.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/0b/4a/a3.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/0b/4a/a3.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Ruinas de San Ignacio Miní",
     "provincia": "Misiones",
     "localidad": "Misiones",
     "descripcion": "Una experiencia completa en las Cataratas Argentinas, con seguridad, comodidad y guía.",
-    "precio": 99999,
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/21/23/9b/puerta-templo.jpg?w=1200&h=-1&s=1"
+    "precio": "99999",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/21/23/9b/puerta-templo.jpg?w=1200&h=-1&s=1",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Minas de Wanda",
     "provincia": "Misiones",
     "localidad": "Misiones",
     "descripcion": "Una experiencia completa en las Minas, con seguridad, comodidad y guía.",
-    "precio": 99999,
-    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a4/55/65/piedra.jpg?w=1200&h=-1&s=1"
+    "precio": "99999",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a4/55/65/piedra.jpg?w=1200&h=-1&s=1",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Excursión prémium al delta del Tigre y San Isidro desde Buenos Aires",
     "provincia": "Buenos Aires",
     "localidad": "Tigre",
     "descripcion": "Cambie las concurridas calles de Buenos Aires por las vías fluviales del Delta del Río Tigre en una excursión de un día que es ideal para quienes visitan por primera vez. Verás un lado más provincial de la región mientras exploras las calles empedradas de San Isidro. Además, escaparás de las multitudes en tierra durante un crucero por el canal en el delta.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/17/7b/44.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/17/7b/44.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Recorrido al estilo gaucho de un día en un rancho en San Antonio de Areco desde Buenos Aires",
     "provincia": "Buenos Aires",
     "localidad": "San Antonio de Padua",
     "descripcion": "La estancia El Ombu de Areco es un rancho tradicional ubicado en San Antonio de Areco, en el corazón del país gaucho (vaquero) y a un corto paseo en coche de Buenos Aires. En esta excursión, pasará todo un día en la estancia, con actividades como equitación, un tradicional almuerzo de asado a la barbacoa y un emocionante espectáculo gaucho.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/17/7d/d2.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/17/7d/d2.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Excursión de Medio Dia al Delta del Tigre y San Isidro",
     "provincia": "Buenos Aires",
     "localidad": "Tigre",
     "descripcion": "Realice un paseo único por el quinto Delta mas grande del mundo. Durante la navegación podrán conocer la zona de Tres Bocas, el Rio Sarmiento, visualizar el Museo Casa Sarmiento y conocer los recreos y paradores típicos de la zona, sus muelles, la vegetación autóctona del Delta y la particular vida isleña. Luego conocerán el Puerto de Frutos, famoso por sus artesanías locales, y al finalizar visitaran San Isidro con sus calles empedradas y La Catedral que deslumbra con su belleza., luego al finalizar se dirigirán a una Degustación de vino argentino totalmente gratis.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/9e/05/d0.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/9e/05/d0.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Excursión de día completo al La Cumbrecita desde Córdoba",
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Explore la región central de Argentina en esta excursión de día completo desde Córdoba. Maravíllese ante los monumentos de La Cumbrecita, declarados Patrimonio de la Humanidad por la UNESCO, explore la famosa localidad de Villa General Belgrano y disfrute de espectaculares vistas del valle de Calamuchita y del dique Los Molinos.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/36/8f/f2.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/36/8f/f2.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "City Tour Córdoba Privado",
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Discover the historical and cultural attractions of Cordoba in just half a day on a private sightseeing tour. Easy round-trip transportation from your hotel enables you to comfortably visit a long list of sites in a short amount of time. Highlights include the historical center, Jesuit Block (a UNESCO World Heritage Site), and Sarmiento Park. Want to see something different? The itinerary can be customized to include places that match your personal interests.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/bd/fd/7f.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/bd/fd/7f.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
   {
     "excursion": "Museos Jesuitas del Norte",
     "provincia": "Cordoba",
     "localidad": "Cordoba",
     "descripcion": "Sumérgete en la historia jesuita de Argentina en un tour privado desde Córdoba. El transporte cómodo lo lleva desde su alojamiento o el aeropuerto a tres Estancias (Estaciones) declaradas Patrimonio de la Humanidad por la UNESCO: Jesuítica de Jesús María, Santa Catalina y Estancia de Caroya. La excursión personalizada también incluye una visita al Museo Nacional Jesuítico y una bodega en Colonia Caroya. En el camino, su guía estará disponible para responder cualquier pregunta que pueda tener.",
-    "precio": 99999,
-    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/8a/71/1c.jpg"
+    "precio": "99999",
+    "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/8a/71/1c.jpg",
+    "horarios": [
+      {"turno": "9hs", "disponibilidad": 15},
+      {"turno": "11hs", "disponibilidad": 15},
+      {"turno": "14hs", "disponibilidad": 15},
+      {"turno": "16hs", "disponibilidad": 15}
+    ]
   },
     {
       "excursion": "Excursión de día completo al Valle de Punilla",
       "provincia": "Cordoba",
       "localidad": "Cordoba",
       "descripcion": "Admire las vistas de las montañas, ciudades alpinas y elegantes mansiones del Valle de Punilla en esta excursión de un día completo desde Córdoba. Saboree las tradiciones en los animados pueblos de Capilla del Monte, Villa Carlos Paz y La Cumbre; descubra Cosquín, capital de la música folk; y dé un paseo en telesilla en Los Cocos (coste adicional). Durante el trayecto, haga una parada para disfrutar de las vistas de la famosa montaña Uritorco, el Dique San Roque y la central hidroeléctrica de La Calera.",
-      "precio": 99999,
-      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/71/92/3b.jpg"
+      "precio": "99999",
+      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/71/92/3b.jpg",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -133,8 +230,14 @@
       "provincia": "Misiones",
       "localidad": "Misiones",
       "descripcion": "La mayoría de personas visitan las cataratas del Iguazú durante el día, pero esta excursión nocturna le mostrará la belleza de las cataratas del Niágara, a la luz de la luna. En un pequeño grupo de no más de 15 personas, viaje en autobús y tren a Parque Nacional Iguazú y disfrute del paisaje más importante del parque, la Garganta del Diablo.",
-      "precio": 15000,
-      "img": "https://iguazufalls.com/wp-content/uploads/full-moon-walking-tour-2-1024x682.jpg"
+      "precio": "15000",
+      "img": "https://iguazufalls.com/wp-content/uploads/full-moon-walking-tour-2-1024x682.jpg",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -142,8 +245,14 @@
       "provincia": "Misiones",
       "localidad": "Misiones",
       "descripcion": "Aproveche al máximo su tiempo en el área de las Cataratas del Iguazú de Brasil con un recorrido que incluye tres atracciones en un día. Vea la gran represa de Itaipu y aprenda sobre su construcción y cómo la tierra que la rodea se ha convertido en un área de conservación para la flora y la fauna locales. Vea más de 1000 especies de aves, incluidos coloridos loros indígenas, en el Parque das Aves, luego viaje para ver las poderosas Cataratas del Iguazú.",
-      "precio": 99999,
-      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/21/d3/76.jpg"
+      "precio": "15000",
+      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/21/d3/76.jpg",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -151,8 +260,14 @@
       "provincia": "Misiones",
       "localidad": "Misiones",
       "descripcion": "Sumérgete en la naturaleza y la cultura en esta excursión privada de medio día, donde navegarás en kayak por el río Paraná y disfrutarás de un agradable paseo por el bosque. Tu guía se encargará de todos los detalles y de la ruta, así que tú solo tendrás que disfrutar remando en tu kayak biplaza, disfrutando del paisaje y escuchando las historias de la zona.",
-      "precio": 99999,
-      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/38/85/ee.jpg"
+      "precio": "1255",
+      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/38/85/ee.jpg",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -160,8 +275,14 @@
       "provincia": "Neuquen",
       "localidad": "Neuquen",
       "descripcion": "Es el lago mas alto de la provincia del neuquén, solo accesible en epocas estivales. Para los amantes de los paisajes agrestes. Es interesante observar las vertientes en el filo del infiernillo y las coladas de obsidianas.",
-      "precio": 99999,
-      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1f/91/d2/recorriendo-las-orillas.jpg?w=1200&h=-1&s=1"
+      "precio": "99999",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1f/91/d2/recorriendo-las-orillas.jpg?w=1200&h=-1&s=1",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -169,8 +290,14 @@
       "provincia": "Neuquen",
       "localidad": "Neuquen",
       "descripcion": "Para pasar un finde largo.Excelente para acampar recorrer caminar pescar hacer un asado o pescado.Recomendable 100%",
-      "precio": 99999,
-      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/28/35/a9/dique-ballester.jpg?w=1000&h=-1&s=1"
+      "precio": "99999",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/28/35/a9/dique-ballester.jpg?w=1000&h=-1&s=1",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -179,7 +306,13 @@
       "localidad": "Neuquen",
       "descripcion": "Hermosa catedral, con mucha madera y ladrillos a la vista. Se encuentra la tumba de Jaime de Nevares.",
       "precio": "99999",
-      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/02/0c/96/photo3jpg.jpg?w=700&h=-1&s=1"
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/02/0c/96/photo3jpg.jpg?w=700&h=-1&s=1",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -187,8 +320,14 @@
       "provincia": "Neuquen",
       "localidad": "Neuquen",
       "descripcion": "Bellísimas lagunas. Son paisajes únicos. Tuvimos la mala suerte que justo cambió el viento y cuando llegamos hacía muchísimo frio así que no pudimos quedarnos. Todo esta muy cuidado, limpio, hay espacios para instalarse y admirar la naturaleza en todo su esplendor.",
-      "precio": "99999",
-      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1f/47/94/hermoso.jpg?w=1200&h=-1&s=1"
+      "precio": "15000",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1f/47/94/hermoso.jpg?w=1200&h=-1&s=1",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -196,8 +335,14 @@
       "provincia": "Neuquen",
       "localidad": "Neuquen",
       "descripcion": "Saliendo de Chos Malal hacia el norte ya nos acompaña su presencia, un volcán imponente de unos 4780 msnm, a su base (2100 msnm) se puede llegar en auto, por un hermoso camino sinuoso con colores y formaciones de rocas muy extrañas, precipicios, desde esta base, con los tres refugios de gendarmería, comienzan los senderos para escalar hasta su cima.",
-      "precio": "99999",
-      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/67/50/70/geiser-en-los-tachos.jpg?w=1200&h=-1&s=1"
+      "precio": "15000",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/67/50/70/geiser-en-los-tachos.jpg?w=1200&h=-1&s=1",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -205,8 +350,14 @@
       "provincia": "Neuquen",
       "localidad": "Neuquen",
       "descripcion": "Cambie las concurridas calles de Buenos Aires por las vías fluviales del Delta del Río Tigre en una excursión de un día que es ideal para quienes visitan por primera vez. Verás un lado más provincial de la región mientras exploras las calles empedradas de San Isidro. Además, escaparás de las multitudes en tierra durante un crucero por el canal en el delta.",
-      "precio": "99999",
-      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/10/da/73/rio-limay.jpg?w=1200&h=-1&s=1"
+      "precio": "15000",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/10/da/73/rio-limay.jpg?w=1200&h=-1&s=1",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -214,8 +365,14 @@
       "provincia": "Neuquen",
       "localidad": "Neuquen",
       "descripcion": "El camino como en la mayoría no esta muy bueno pero las vistas son únicas. Hay varios camping al costado del lago para elegir. Las playas son divinas y el agua super agradable. Fue uno de los que más disfrute por la poca gente.",
-      "precio": "99999",
-      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/cf/e1/af/lago-huechulafquen.jpg?w=1200&h=-1&s=1"
+      "precio": "1255",
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/cf/e1/af/lago-huechulafquen.jpg?w=1200&h=-1&s=1",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
     ,
     {
@@ -223,8 +380,14 @@
       "provincia": "Neuquen",
       "localidad": "Neuquen",
       "descripcion": "Explore Bariloche, la isla Victoria y el bosque de Arrayanes con una guía en este completo recorrido de varias paradas. Viajar con un grupo pequeño significa que disfrutará de la atención personalizada de su guía y la capacidad de hacer preguntas. Las paradas incluyen Puero Panuelo, Puerto Anchorena, la península de Quetrihué y el Parque Nacional Lost Arrayanes. En el camino, escuche comentarios sobre el medio ambiente local, la flora y la fauna.",
-      "precio": "99999",
-      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/12/34/32.jpg"
+      "precio": "1255",
+      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/12/34/32.jpg",
+      "horarios": [
+        {"turno": "9hs", "disponibilidad": 15},
+        {"turno": "11hs", "disponibilidad": 15},
+        {"turno": "14hs", "disponibilidad": 15},
+        {"turno": "16hs", "disponibilidad": 15}
+      ]
     }
   ]
   

@@ -2,12 +2,13 @@ const Excursion = require('../models/excursionModel');
 
 exports.obtenerExcursiones = async (req, res) => {
     try {
-        const excursiones = await Excursion.find();
+        const excursiones = await Excursion.find().populate('horarios');
         res.json(excursiones);
     } catch (error) {
         res.status(500).json({ mensaje: 'Error al obtener excursiones' });
     }
 };
+
 
 exports.obtenerExcursionPorNombre = async (req, res) => {
     try {
@@ -67,7 +68,7 @@ exports.eliminarExcursionPorId = async (req, res) => {
 
 exports.crearExcursion = async (req, res) => {
     try {
-        const { excursion, provincia, localidad, descripcion, precio, img } = req.body;
+        const { excursion, provincia, localidad, descripcion, precio, img, horarios } = req.body;
 
         // Verificar si la excursión ya existe
         const existeExcursion = await Excursion.findOne({ excursion });
@@ -75,15 +76,27 @@ exports.crearExcursion = async (req, res) => {
             return res.status(400).json({ mensaje: 'La excursión ya existe' });
         }
 
-        // Crear la nueva excursión
-        const nuevaExcursion = new Excursion({ excursion, provincia, localidad, descripcion, precio, img });
+        // Crear la nueva excursión con horarios
+        const nuevaExcursion = new Excursion({
+            excursion,
+            provincia,
+            localidad,
+            descripcion,
+            precio,
+            img,
+            horarios  
+        });
+
         await nuevaExcursion.save();
 
         res.status(201).json({ mensaje: 'Excursión creada con éxito' });
     } catch (error) {
+        console.error(error);
         res.status(500).json({ mensaje: 'Error al crear excursión' });
     }
 };
+
+
 
 exports.modificarExcursionPorId = async (req, res) => {
     try {
