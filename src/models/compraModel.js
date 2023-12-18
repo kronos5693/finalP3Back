@@ -16,8 +16,8 @@ compraSchema.pre('save', async function (next) {
       (horario) => horario.turno === this.turnoExcursion
     );
 
-    if (horarioSeleccionado.cupos_disponibles >= this.cantidadPersonas) {
-      horarioSeleccionado.cupos_disponibles -= this.cantidadPersonas;
+    if (horarioSeleccionado.disponibilidad >= this.cantidadPersonas) {
+      horarioSeleccionado.disponibilidad -= this.cantidadPersonas;
       await excursion.save();
       next();
     } else {

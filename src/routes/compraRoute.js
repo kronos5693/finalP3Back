@@ -8,4 +8,8 @@ router.get('/:idUsuario', compraController.obtenerComprasPorUsuario);
 router.put('/editar/:idCompra', compraController.editarCompra);
 router.delete('/:idCompra', compraController.eliminarCompra);
 
+
+
+
+
 module.exports = router;
