@@ -5,6 +5,7 @@ const excursionesRoutes = require("./routes/excursionRoute");
 const personajeRoutes = require("./routes/personajeRoute");
 const rolRoutes = require("./routes/rolRoute");
 const compraRoutes = require("./routes/compraRoute");
+const authRoutes = require("./routes/authRoute");  // ← ESTA LÍNEA FALTABA
 
 const cors = require("cors");
 const { createProxyMiddleware } = require("http-proxy-middleware");
@@ -28,12 +29,13 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas
+app.use('/auth', authRoutes);  // ← Ruta de autenticación
 app.use("/usuarios", usuarioRoutes);
 app.use("/excursiones", excursionesRoutes);
 app.use("/personajes", personajeRoutes);
 app.use("/compra", compraRoutes);
-
 app.use("/roles", rolRoutes);
+
 // Middleware de manejo de errores
 app.use(errorHandler);
 
