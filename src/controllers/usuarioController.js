@@ -19,14 +19,14 @@ exports.crearUsuario = async (req, res) => {
         const { nombre, apellido, email, contraseña, rol } = req.body;
 
         if (!nombre || !apellido || !email || !contraseña) {
-            return res.status(400).json({ 
-                mensaje: 'Todos los campos son requeridos: nombre, apellido, email, contraseña' 
+            return res.status(400).json({
+                mensaje: 'Todos los campos son requeridos: nombre, apellido, email, contraseña'
             });
         }
 
         if (contraseña.length < 6) {
-            return res.status(400).json({ 
-                mensaje: 'La contraseña debe tener al menos 6 caracteres' 
+            return res.status(400).json({
+                mensaje: 'La contraseña debe tener al menos 6 caracteres'
             });
         }
 
@@ -35,18 +35,18 @@ exports.crearUsuario = async (req, res) => {
             return res.status(400).json({ mensaje: 'El usuario ya existe' });
         }
 
-        const nuevoUsuario = new Usuario({ 
-            nombre, 
-            apellido, 
-            email, 
-            contraseña, 
+        const nuevoUsuario = new Usuario({
+            nombre,
+            apellido,
+            email,
+            contraseña,
             rol
         });
-        
+
         await nuevoUsuario.save();
         logger.info(`Se creó correctamente el usuario ${email} en la base`);
-        
-        res.status(201).json({ 
+
+        res.status(201).json({
             mensaje: 'Usuario creado con éxito',
             usuario: {
                 id: nuevoUsuario._id,
@@ -57,14 +57,14 @@ exports.crearUsuario = async (req, res) => {
         });
     } catch (error) {
         logger.error('Error al registrar usuario en la base de datos', error);
-        
+
         if (error.name === 'ValidationError') {
-            return res.status(400).json({ 
+            return res.status(400).json({
                 mensaje: 'Error de validación',
                 errores: Object.values(error.errors).map(err => err.message)
             });
         }
-        
+
         res.status(500).json({ mensaje: 'Error al crear usuario' });
     }
 };
@@ -72,7 +72,7 @@ exports.crearUsuario = async (req, res) => {
 exports.editarUsuario = async (req, res) => {
     try {
         const { id } = req.params;
-        const { nombre, apellido, email, contraseña } = req.body;
+        const { nombre, apellido, email, contraseña, telefono, edad, direccion } = req.body;
 
         const usuario = await Usuario.findById(id);
         if (!usuario) {
@@ -93,11 +93,14 @@ exports.editarUsuario = async (req, res) => {
         if (nombre) usuario.nombre = nombre;
         if (apellido) usuario.apellido = apellido;
         if (email) usuario.email = email;
-        
+        if (telefono !== undefined) usuario.telefono = telefono;
+        if (edad !== undefined) usuario.edad = edad;
+        if (direccion) usuario.direccion = direccion;
+
         if (contraseña) {
             if (contraseña.length < 6) {
-                return res.status(400).json({ 
-                    mensaje: 'La contraseña debe tener al menos 6 caracteres' 
+                return res.status(400).json({
+                    mensaje: 'La contraseña debe tener al menos 6 caracteres'
                 });
             }
             usuario.contraseña = contraseña;
@@ -107,26 +110,69 @@ exports.editarUsuario = async (req, res) => {
 
         logger.info(`Usuario ${usuario.email} actualizado exitosamente`);
 
-        res.json({ 
+        res.json({
             mensaje: 'Usuario actualizado con éxito',
             usuario: {
                 id: usuario._id,
                 nombre: usuario.nombre,
                 apellido: usuario.apellido,
-                email: usuario.email
+                email: usuario.email,
+                telefono: usuario.telefono,
+                edad: usuario.edad,
+                direccion: usuario.direccion
             }
         });
     } catch (error) {
         logger.error('Error al editar usuario:', error);
-        
+
         if (error.name === 'ValidationError') {
-            return res.status(400).json({ 
+            return res.status(400).json({
                 mensaje: 'Error de validación',
                 errores: Object.values(error.errors).map(err => err.message)
             });
         }
-        
+
         res.status(500).json({ mensaje: 'Error al editar usuario' });
+    }
+};
+
+//  FUNCIÓN: Cambiar contraseña
+exports.cambiarPassword = async (req, res) => {
+    try {
+        const { contraseñaActual, contraseñaNueva } = req.body;
+        const usuarioId = req.usuario.id;
+
+        if (!contraseñaActual || !contraseñaNueva) {
+            return res.status(400).json({
+                mensaje: 'Debes proporcionar la contraseña actual y la nueva'
+            });
+        }
+
+        if (contraseñaNueva.length < 6) {
+            return res.status(400).json({
+                mensaje: 'La nueva contraseña debe tener al menos 6 caracteres'
+            });
+        }
+
+        const usuario = await Usuario.findById(usuarioId);
+        if (!usuario) {
+            return res.status(404).json({ mensaje: 'Usuario no encontrado' });
+        }
+
+        const contraseñaValida = await bcrypt.compare(contraseñaActual, usuario.contraseña);
+        if (!contraseñaValida) {
+            return res.status(400).json({ mensaje: 'La contraseña actual es incorrecta' });
+        }
+
+        usuario.contraseña = contraseñaNueva;
+        await usuario.save();
+
+        logger.info(`Usuario ${usuario.email} cambió su contraseña`);
+
+        res.json({ mensaje: 'Contraseña actualizada con éxito' });
+    } catch (error) {
+        logger.error('Error al cambiar contraseña:', error);
+        res.status(500).json({ mensaje: 'Error al cambiar contraseña' });
     }
 };
 
@@ -134,12 +180,12 @@ exports.buscarUsuarioPorNombre = async (req, res) => {
     try {
         const { nombre } = req.params;
 
-        const usuarios = await Usuario.find({ 
-            nombre: new RegExp(nombre, 'i') 
+        const usuarios = await Usuario.find({
+            nombre: new RegExp(nombre, 'i')
         })
-        .select('-contraseña')
-        .populate('rol', 'nombre');
-        
+            .select('-contraseña')
+            .populate('rol', 'nombre');
+
         res.json(usuarios);
     } catch (error) {
         logger.error('Error al buscar usuario por nombre:', error);
@@ -176,7 +222,7 @@ exports.obtenerPerfil = async (req, res) => {
         const usuario = await Usuario.findById(req.usuario.id)
             .select('-contraseña')
             .populate('rol', 'nombre');
-        
+
         if (!usuario) {
             return res.status(404).json({ mensaje: 'Usuario no encontrado' });
         }
