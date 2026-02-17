@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 logs/log-api
+limpiarDB.js
+vaciarCarritos.js
