@@ -6,7 +6,7 @@ const vaciarCarritos = async () => {
         const uri = process.env.MONGODB_URI;
         await mongoose.connect(uri);
 
-        console.log('\n🗑️  Vaciando carritos...\n');
+        console.log('\n  Vaciando carritos...\n');
 
         const db = mongoose.connection.db;
         
@@ -27,26 +27,24 @@ const vaciarCarritos = async () => {
         // ELIMINAR TODOS
         const result = await db.collection('carritos').deleteMany({});
         
-        console.log(`\n✅ Carritos eliminados: ${result.deletedCount}\n`);
+        console.log(`\n Carritos eliminados: ${result.deletedCount}\n`);
 
         // Verificar
         const carritosAfter = await db.collection('carritos').countDocuments();
-        console.log(`📊 Carritos restantes: ${carritosAfter} (debe ser 0)\n`);
+        console.log(` Carritos restantes: ${carritosAfter} (debe ser 0)\n`);
 
         if (carritosAfter === 0) {
-            console.log('✅ ÉXITO: Todos los carritos eliminados\n');
-            console.log('🎯 Ahora:');
-            console.log('   1. Recarga el frontend (F5)');
-            console.log('   2. El carrito debe mostrar 0\n');
+            console.log(' ÉXITO: Todos los carritos eliminados\n');
+           
         } else {
-            console.log('⚠️  Aún quedan carritos. Intenta de nuevo.\n');
+            console.log(' Aún quedan carritos.\n');
         }
 
         await mongoose.disconnect();
         process.exit(0);
 
     } catch (error) {
-        console.error('❌ Error:', error);
+        console.error(' Error:', error);
         process.exit(1);
     }
 };
