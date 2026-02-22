@@ -72,8 +72,8 @@ Antes de comenzar, asegúrate de tener instalado:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/kronos5693/finalP3Back
-cd back
+git clone https://github.com/kronos5693/finalP3Back.git
+cd finalP3Back
 ```
 
 ### 2. Instalar dependencias
